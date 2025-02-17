@@ -10,8 +10,6 @@ Route::get('/',[HomeController::class,'index']);
 Route::get('/detail/{id}', [HomeController::class,'detail'])->name('detail');
 
 //some time index.blad.php view is move to views/post/indexblade.php so should change view('post.index').
-
-Route::get('/param', [HomeController::class,'param']);
 Route::get('/para/{id}', [PostController::class,'arg'])->where('id','[0-9]+');
 // URL Redirect
 Route::get('/oldurl', [PostController::class,'oldUrl']);

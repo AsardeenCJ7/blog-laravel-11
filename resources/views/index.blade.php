@@ -1,3 +1,4 @@
+{{--@dd($title)--}}
 @extends('layouts.master')
 @section('content')
 <div class="container-fluid ">
@@ -19,6 +20,7 @@
     <div class="row m-3">
         @if($posts)
         @foreach ($posts as $post)
+{{--            @dd($post->title)--}}
         <div class="col-4 mb-4">
             <div class="card">
                 <div class="card-body">
