@@ -7,7 +7,7 @@
             <h1 class="mb-4">{{$post->title}}</h1>
             <p class="text-muted">Posted on January 1, 2024</p>
             <img src="https://via.placeholder.com/800x400" class="img-fluid mb-4" alt="Blog Image">
-            <p>{{$post->content}}</p>
+            <!-- <p>{{Str::limit($post->content,80)}}</p> -->
 
         </div>
         <div class="col-lg-4">
