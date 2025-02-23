@@ -9,7 +9,6 @@ use PhpParser\Node\Stmt\TryCatch;
 class HomeController extends Controller
 {
     //
-
     public function detail($id){
         // $posts = $this->getPost();
         // $post = collect($posts)->firstWhere('id',$id);
